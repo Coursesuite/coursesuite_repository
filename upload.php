@@ -16,6 +16,8 @@
 
 /**
  * repo upload form
+ * this is used by external apps as an endpoint to publish scorm zip files into
+ * it only accepts files if the authorization header is set to the expected value
  * requires authorization header to be passed through
  * i.e. nginx  = fastcgi_param HTTP_AUTHORIZATION $http_authorization;
  *      apache = SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
