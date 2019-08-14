@@ -184,7 +184,6 @@ class repository_coursesuite extends repository {
 
         $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}/repository/coursesuite/upload.php";
         $apihost = "https://www.coursesuite.ninja";
-        $apihost = "https://coursesuite.ninja.test";
 
         if (!empty($username) && !empty($password)) {
 
